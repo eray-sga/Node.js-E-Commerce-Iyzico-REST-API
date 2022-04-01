@@ -1,0 +1,33 @@
+{
+  "name": "node.js-e-commerce-iyz-co-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @babel/node",
+    "dev": "babel src --out-dir=./build --copy-files --watch",
+    "build": "babel src --out-dir=./build --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eray-sga/Node.js-E-Commerce-Iyz-co-REST-API.git"
+  },
+  "author": "Eray Kalkan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eray-sga/Node.js-E-Commerce-Iyz-co-REST-API/issues"
+  },
+  "homepage": "https://github.com/eray-sga/Node.js-E-Commerce-Iyz-co-REST-API#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.0"
+  },
+  "dependencies": {
+    "iyzipay": "^2.0.48",
+    "nanoid": "^3.3.1"
+  }
+}
